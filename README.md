@@ -23,6 +23,6 @@ plotfmi.py
 
 Example:
 
-python getfmi.py 101104 2023-08-14T18:00:00T
+python getfmi.py 101104 2023-08-14T18:00:00Z
 
-python plotfmi.py 101104 2023-08-14T18:00:00T
+python plotfmi.py 101104 2023-08-14T18:00:00Z
