@@ -54,7 +54,7 @@ skew.plot(pres, dew_point, 'b',label="Td",zorder=2)
 
 #plot limits
 pbot, ptop = 1020, 100 #hPa
-tmin, tmax = -40, 20 #C
+tmin, tmax = -40, 40 #C
 #average winds over the plotting "density"
 uu_mean = uu.copy()
 vv_mean = vv.copy()
@@ -75,7 +75,7 @@ else:
 
 skew.plot_dry_adiabats(np.arange(-30,100,10.0)*units.degC,alpha=0.4,label="$\\Gamma _d$")
 skew.plot_moist_adiabats(np.arange(-30,100,10.0)*units.degC,alpha=0.4,label="$\\Gamma _m$")
-skew.plot_mixing_lines(color="gray",alpha=0.4)
+skew.plot_mixing_lines(color="gray",alpha=0.8)
 
 plt.ylabel("Pressure (hPa)")
 plt.xlabel("Temperature ($^\\circ$C)")
