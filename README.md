@@ -1,5 +1,5 @@
 # fmi_sounding
-Script for downloading and plotting FMI operational sounding launched in Jokioinen and Sodankylä stations
+Script for downloading and plotting FMI radio soundings launched from Jokioinen and Sodankylä stations
 Written by Johannes Mikkola, University of Helsinki, contact: johannes.mikkola[at]helsinki.fi
 
 getfmi.py
