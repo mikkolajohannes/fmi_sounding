@@ -100,7 +100,7 @@ for T in np.arange(-140,51)[::10]:
     skew.ax.plot([T,T],[1020,100],'k',alpha=.5,zorder=1)
 
 for p in np.arange(100,1001)[::100]:
-    skew.ax.plot([-80,51],[p,p],'k',alpha=.5,zorder=1)
+    skew.ax.plot([-140,51],[p,p],'k',alpha=.5,zorder=1)
 
 for T in np.arange(-140,-79)[::5]:
     skew.ax.plot([T,T],[1020,100],'gray',alpha=.5,linewidth=0.5,zorder=1)
