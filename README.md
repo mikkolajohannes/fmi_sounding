@@ -13,9 +13,12 @@ getfmi.py
 
     Since Dec 2016 the data is provided on 2 seconds resolution, before that on some selection of pressure levels
 
-Example:
-python getfmi.py 101104 2023-08-14T18:00:00T
-python plotfmi.py 1014 2023-08-14T18:00:00T
 
 plotfmi.py
   - Plot FMI sounding data (using the data format produced by getfmi.py)
+
+
+Example:
+python getfmi.py 101104 2023-08-14T18:00:00T
+
+python plotfmi.py 1014 2023-08-14T18:00:00T
